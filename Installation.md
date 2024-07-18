@@ -146,7 +146,7 @@ Whether you are new to PHP web frameworks or have years of experience, Laravel i
         - what 是关系代词，引导宾语从句。
         - you build 是主谓结构，"你创建"。
 
-# Why Laravel?
+## Why Laravel?
 
 There are a variety of tools and frameworks available to you when building a web application. However, we believe Laravel is the best choice for building modern, full-stack web applications.
 
@@ -362,3 +362,126 @@ Laravel combines the best packages in the PHP ecosystem to offer the most robust
         - you'll 是缩写，表示 "你将" (you will)。
         - even become 是动词短语，表示 "甚至会成为"。
         - a Laravel contributor 是名词短语，表示身份，"Laravel 的贡献者"。
+
+
+
+
+# Creating a Laravel Project
+
+Before creating your first Laravel project, make sure that your local machine has PHP and Composer installed. If you are developing on macOS or Windows, PHP, Composer, Node and NPM can be installed in minutes via Laravel Herd.
+
+> 在创建第一个 Laravel 项目之前，请确保你的本地计算机已安装 PHP 和 Composer。如果你在 macOS 或 Windows 上开发，可以通过 Laravel Herd 在几分钟内安装 PHP、Composer、Node 和 NPM。
+
+1. Before creating your first Laravel project
+    - Before creating: 介词短语，表示时间，"在创建之前"。
+    - your first Laravel project: 动名词的宾语，表示具体项目，"你的第一个 Laravel 项目"。
+
+2. make sure that your local machine has PHP and Composer installed.
+    - make sure: 动词短语，表示确保，"确保"。
+    - that your local machine has PHP and Composer installed: 宾语从句，表示确保的内容。
+        - that 是连词，引导宾语从句。
+        - your local machine 是主语，"你的本地计算机"。
+        - has PHP and Composer installed: 谓语部分，表示状态，"安装了 PHP 和 Composer"。
+            - installed 是过去分词，表示被动状态，"安装了"。
+
+3. If you are developing on macOS or Windows,
+    - If: 连词，引导条件从句，表示假设，"如果"。
+    - you are developing on macOS or Windows: 条件从句，表示具体情况，"你在 macOS 或 Windows 上开发"。
+
+4. PHP, Composer, Node and NPM can be installed in minutes via Laravel Herd.
+    - PHP, Composer, Node and NPM: 主语，表示可安装的工具，"PHP、Composer、Node 和 NPM"。
+    - can be installed: 动词短语，表示可能性和被动，"可以被安装"。
+    - in minutes: 介词短语，表示时间，"在几分钟内"。
+    - via Laravel Herd: 介词短语，表示手段，"通过 Laravel Herd"。
+
+
+After you have installed PHP and Composer, you may create a new Laravel project via Composer's create-project command:
+
+> 在你安装了 PHP 和 Composer 之后，你可以通过 Composer 的 create-project 命令创建一个新的 Laravel 项目：
+```bash
+composer create-project laravel/laravel example-app
+```
+
+1. After you have installed PHP and Composer,
+    - After: 连词，引导时间状语从句，表示 "在...之后"。
+    - you have installed PHP and Composer: 时间状语从句，表示完成的动作，"你安装了 PHP 和 Composer 之后"。
+2. you may create a new Laravel project via Composer's create-project command:
+    - you may create: 主语 (you) + 情态动词 (may) + 动词 (create)，表示 "你可以创建"。
+    - a new Laravel project: 宾语，表示创建的对象，"一个新的 Laravel 项目"。
+    - via Composer's create-project command: 介词短语，表示方式，"通过 Composer 的 create-project 命令"。
+
+Or, you may create new Laravel projects by globally installing the Laravel installer via Composer. The Laravel installer allows you to select your preferred testing framework, database, and starter kit when creating new applications:
+
+```bash
+composer global require laravel/installer
+ 
+laravel new example-app
+```
+
+> 或者，你可以通过 Composer 全局安装 Laravel 安装程序来创建新的 Laravel 项目。Laravel 安装程序允许你在创建新应用程序时选择你喜欢的测试框架、数据库和入门套件：
+
+1. Or, you may create new Laravel projects by globally installing the Laravel installer via Composer.
+    - Or: 连词，表示选择，"或者"。
+    - you may create: 主语 (you) + 情态动词 (may) + 动词 (create)，表示 "你可以创建"。
+    - new Laravel projects: 宾语，表示创建的对象，"新的 Laravel 项目"。
+    - by globally installing the Laravel installer via Composer: 介词短语，表示方式，"通过 Composer 全局安装 Laravel 安装器"。
+
+2. The Laravel installer allows you to select your preferred testing framework, database, and starter kit when creating new applications:
+    - The Laravel installer: 主语，表示特定的工具，"Laravel 安装器"。
+    - allows you to select: 谓语部分，表示功能，"允许你选择"。
+    - your preferred testing framework, database, and starter kit: 不定式的宾语，表示选择的内容，"你偏好的测试框架、数据库和启动包"。
+        - your preferred 是形容词短语，表示偏好，"你偏好的"。
+        - testing framework 是名词短语，表示 "测试框架"。
+        - database 是名词，表示 "数据库"。
+        - and starter kit 是并列名词短语，表示 "和启动包"。
+
+    - when creating new applications: 时间状语从句，表示具体时机，"在创建新应用程序时"。
+
+Once the project has been created, start Laravel's local development server using Laravel Artisan's serve command:
+
+```bash
+cd example-app
+ 
+php artisan serve
+```
+> 一旦项目创建完成，使用 Laravel Artisan 的 serve 命令启动 Laravel 的本地开发服务器：
+
+1. Once the project has been created,
+    - Once: 连词，引导时间状语从句，表示 "一旦"。
+    - the project has been created: 时间状语从句，表示条件，"项目被创建完成"。
+2. start Laravel's local development server using Laravel Artisan's serve command:
+    - start: 动词，表示 "启动"。
+    - Laravel's local development server: 宾语，表示启动的对象，"Laravel 的本地开发服务器"
+    - using Laravel Artisan's serve command: 介词短语，表示方式，"使用 Laravel Artisan 的 serve 命令"。
+
+Once you have started the Artisan development server, your application will be accessible in your web browser at http://localhost:8000. Next, you're ready to start taking your next steps into the Laravel ecosystem. Of course, you may also want to configure a database.
+
+> 一旦你启动了 Artisan 开发服务器，你的应用程序将在你的网页浏览器中通过 http://localhost:8000 访问。接下来，你可以开始深入了解 Laravel 生态系统。当然，你可能还需要配置一个数据库。
+
+1. Once you have started the Artisan development server,
+    - Once: 连词，引导时间状语从句，表示 "一旦"。
+    - you have started the Artisan development server: 时间状语从句，表示条件，"你启动了 Artisan 开发服务器"。
+        - have started 是现在完成时，表示动作已经完成。
+
+2. your application will be accessible in your web browser at http://localhost:8000.
+    - your application: 主语，"你的应用程序"。
+    - will be accessible: 谓语部分，表示将来状态，"将可访问"。
+    - in your web browser: 介词短语，表示访问的工具，"在你的网页浏览器中"。
+    - at http://localhost:8000: 介词短语，表示具体的访问地址，"通过 http://localhost:8000"。
+
+3. Next, you're ready to start taking your next steps into the Laravel ecosystem.
+    - Next: 副词，表示顺序，"接下来"。
+    - you're ready to start: 主语 (you) + 系动词 (are) + 形容词 (ready) + 动词 (start)，表示 "你准备开始"。
+    - taking your next steps into the Laravel ecosystem: 不定式的宾语，表示具体的动作，"深入了解 Laravel 生态系统"。
+        - taking 是动名词，表示动作，"采取"。
+        - your next steps 是名词短语，表示 "你的下一步"。
+    - into the Laravel ecosystem: 介词短语，表示深入的方向，"进入 Laravel 生态系统"。
+
+4. Of course, you may also want to configure a database.
+    - Of course: 短语，表示强调，"当然"。
+    - you may also want to: 主语 (you) + 情态动词 (may) + 副词 (also) + 动词 (want)，表示 "你可能还想"。
+    - configure a database: 动词短语，表示具体的动作，"配置一个数据库"。
+
+
+
+    
