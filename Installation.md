@@ -483,5 +483,71 @@ Once you have started the Artisan development server, your application will be a
     - configure a database: 动词短语，表示具体的动作，"配置一个数据库"。
 
 
+# Initial Configuration
 
+All of the configuration files for the Laravel framework are stored in the config directory. Each option is documented, so feel free to look through the files and get familiar with the options available to you.
     
+> 所有 Laravel 框架的配置文件都存储在 config 目录中。每个选项都有文档记录，所以你可以随意查看这些文件并熟悉可用的选项。
+
+1. All of the configuration files for the Laravel framework are stored in the config directory.
+    - All of the configuration files:主语，表示所有配置文件。
+        - All of 是短语，表示整体中的全部，"所有"。
+        - the configuration files 是名词短语，表示具体的文件，"配置文件"。
+    - for the Laravel framework: 介词短语，表示所属，"对于 Laravel 框架"。
+        - for 是介词，表示对象。
+        - the Laravel framework 是名词短语，表示具体的框架，"Laravel 框架"。
+    - are stored: 动词短语，被动语态，表示存储，"被存储"。
+        - are 是助动词，表示被动语态。
+        - stored 是过去分词，表示动作，"存储"。
+    - in the config directory: 介词短语，表示存储位置，"在 config 目录中"。
+
+2. Each option is documented,
+    - Each option: 主语，表示每个选项，"每个选项"。
+    - is documented: 动词短语，被动语态，表示记录，"被记录"。
+        - is 是助动词，表示被动语态。
+        - documented 是过去分词，表示动作，"记录"。
+
+3. so feel free to look through the files and get familiar with the options available to you.
+    - so: 连词，表示结果，"所以"。
+    - feel free to look through: 短语，表示可以随意查看，"随意查看"。
+        - feel free 是固定短语，表示 "随意"。
+        - to look through 是不定式短语，表示动作，"查看"。
+    - the files and get familiar with the options available to you: 连接两个动词短语，表示要做的事情。
+        - the files: 名词短语，表示要查看的对象，"这些文件"。
+        - and: 连词，连接两个动作。
+        - get familiar with the options available to you: 动词短语，表示熟悉选项，"熟悉可用的选项"。
+            - get familiar with 是固定短语，表示 "熟悉"。
+            - the options available to you: 名词短语，表示具体的选项，"可用的选项"。
+
+Laravel needs almost no additional configuration out of the box. You are free to get started developing! However, you may wish to review the config/app.php file and its documentation. It contains several options such as timezone and locale that you may wish to change according to your application.
+
+> Laravel 开箱即用，几乎不需要额外配置。你可以立即开始开发！不过，你可能希望查看 config/app.php 文件及其文档。它包含了一些选项，例如时区和语言环境，你可以根据你的应用程序进行更改。
+
+1. Laravel needs almost no additional configuration out of the box.
+    - Laravel: 主语，"Laravel"。
+    - needs almost no additional configuration: 谓语部分，表示需求，"几乎不需要额外配置"。
+        - needs 是动词，表示 "需要"。
+        - almost no 是副词短语，表示几乎没有，"几乎不"。
+        - additional configuration 是名词短语，表示 "额外配置"。
+    - out of the box: 短语，表示开箱即用，"开箱即用"。
+
+2. You are free to get started developing!
+    - You are free to: 主语 (you) + 系动词 (are) + 形容词 (free) + 不定式 (to)，表示 "你可以随意"。
+    - get started 开始。
+    - developing: 动名词，表示动作，"开发"。
+
+3. However, you may wish to review the config/app.php file and its documentation.
+    - However: 副词，表示转折，"不过"。
+    - you may wish to: 主语 (you) + 情态动词 (may) + 动词 (wish) + 不定式 (to)，表示 "你可能希望"。
+    - to review: 不定式短语，表示动作，"查看"。
+    - the config/app.php file and its documentation: 不定式的宾语，表示具体对象，"config/app.php 文件及其文档"。
+        - the config/app.php file: 名词短语，表示 "config/app.php 文件"。
+        - and its documentation: 名词短语，并列结构，表示 "及其文档"。
+
+4. It contains several options such as timezone and locale that you may wish to change according to your application.
+    - It contains several options: 主句，表示包含，"它包含几个选项"。
+    - such as timezone and locale: 介词短语，表示例子，"例如时区和语言环境"。
+    - that you may wish to change according to your application: 定语从句，修饰 options，表示 "你可能希望根据你的应用程序更改的"。
+        - that 是关系代词，引导定语从句。
+        - you may wish to change: 从句部分，表示可能希望更改，"你可能希望更改"。
+        - according to your application: 介词短语，表示依据，"根据你的应用程序"。
